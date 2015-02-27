@@ -1,7 +1,9 @@
 /* BOOTSTRAP OVERRIDES */
 
 @import 'bootstrap/variables';
-$brand-primary: #00bbe3;
+$brand-primary: #00bbe3 !default;
+$brand-success: #00bbe3 !default;
+
 
 .alert {
 	line-height: 22px;
