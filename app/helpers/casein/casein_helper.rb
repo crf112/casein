@@ -3,6 +3,7 @@ module Casein
 
     def casein_get_footer_string include_version = false
       ''
+
     end
 
 	  def casein_get_version_info
