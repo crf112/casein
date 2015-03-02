@@ -26,7 +26,7 @@
 			<%= casein_select form, @casein_admin_user, :access_level, casein_get_access_level_array, {:casein_label => "Role"} %>
 		</div>
 		<div class="col-lg-6">
-            <%= casein_collection_select f, f.object, casein_admin_user, :contacttype_id, Contacttype.order(:name), :id, :name, :casein_label =>"Type" %>
+            <%= casein_collection_select f, f.object, casein_admin_user, :contacttype_id, Contacttype.find([1,3]), :id, :name, :casein_label =>"Type" %>
 		</div>
 	</div>
 
