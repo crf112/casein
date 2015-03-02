@@ -33,7 +33,6 @@
           <div id="user-info">
             <ul>
               <li class="hidden-xs hidden-sm">Hello <%= @session_user.name %></li>
-              <li class="hidden-xs hidden-sm"><%= Time.zone.name %></li>
               <li><%= link_to 'Profile', casein_admin_user_path(@session_user) %></li>
 
               <% if @session_user.is_admin? %>
